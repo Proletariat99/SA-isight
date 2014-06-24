@@ -1,0 +1,20 @@
+# Dave Dyer (Science) and Bert Shuler (Splunk)
+# This is our list of stuff to do for version 1.0 
+# Current Version = 0.75
+# Next Version = 1.0 
+
+- fix the time_tracker file to not grow infinitely -- only needs to keep 3 values.
+- add some logging (general debug logging using Splunk's builtin capabilities)
+- put it in an infinite loop so that it's a singleton when it runs.
+- make the singleton configurable within the modular input settings (more settings)
+- configure modular input capabilities for other isight rest endpoints (reports, indexes, warnings, etc).
+
+
+# version 2.0 stuff
+- compartmentalize iocs into file v. web v. email
+- viz
+- stats
+
+# version 3.0 stuff
+- separate configuration page to turn on the scheduled search.
+

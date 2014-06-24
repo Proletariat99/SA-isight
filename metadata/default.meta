@@ -1,0 +1,12 @@
+[viewstates/%2A%3Al9lzhtdz]
+export = system
+owner = nobody
+version = 6.0.3
+modtime = 1398897611.369576000
+
+[savedsearches/iSight%20Threat%20Intel%20Outputlookup]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 6.0.3
+modtime = 1398895267.472801000

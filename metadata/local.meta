@@ -1,0 +1,27 @@
+[savedsearches/iSight%20Threat%20Intel%20Outputlookup]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 6.0.3
+modtime = 1398897941.102792000
+
+[savedsearches/isight%20intel%20output]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 6.0.3
+modtime = 1398898233.067073000
+
+[transforms/threat_isight]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.1.1
+modtime = 1403131017.475836000
+
+[savedsearches/Build%20threat_isight%20lookup]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.1.1
+modtime = 1403131171.718660000
